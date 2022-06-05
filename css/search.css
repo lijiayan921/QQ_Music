@@ -1,0 +1,224 @@
+html {
+  font-size: 50px;
+}
+@media screen and (min-width: 320px) {
+  html {
+    font-size: 21.33333333px;
+  }
+}
+@media screen and (min-width: 360px) {
+  html {
+    font-size: 24px;
+  }
+}
+@media screen and (min-width: 375px) {
+  html {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 384px) {
+  html {
+    font-size: 25.6px;
+  }
+}
+@media screen and (min-width: 400px) {
+  html {
+    font-size: 26.66666667px;
+  }
+}
+@media screen and (min-width: 414px) {
+  html {
+    font-size: 27.6px;
+  }
+}
+@media screen and (min-width: 424px) {
+  html {
+    font-size: 28.26666667px;
+  }
+}
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 32px;
+  }
+}
+@media screen and (min-width: 540px) {
+  html {
+    font-size: 36px;
+  }
+}
+@media screen and (min-width: 600px) {
+  html {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 720px) {
+  html {
+    font-size: 48px;
+  }
+}
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 50px;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin: 0;
+}
+ul,
+i {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+body {
+  min-width: 6.4rem;
+  width: 15rem;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  margin: 0 auto;
+  font-family: poppin, Tahoma, Arial, \5FAE\8F6F\96C5\9ED1, sans-serif;
+  background-size: 15rem 10rem;
+}
+#mod_search {
+  position: relative;
+  height: 4.94rem;
+  background-position: 50% center;
+  background-size: cover;
+  background: url('../images/bg_search.webp');
+}
+#mod_search .mod_sea .sea_ipt {
+  border: 0rem;
+  padding: 0rem 1.4rem 0rem 0.3rem;
+  line-height: 1rem;
+  left: 50%;
+  top: 1.84rem;
+  position: absolute;
+  margin-top: 0rem;
+  margin-left: -3.54rem;
+  background: #ffffff;
+  width: 5.96rem;
+  height: 0.86rem;
+  outline: none;
+}
+#mod_search .mod_sea .search_ipt_btn {
+  position: absolute;
+  top: 2rem;
+  right: 3.3rem;
+  border: 0;
+  font-size: 0.52rem;
+  width: 0.76rem;
+  height: 0.9rem;
+  overflow: visible;
+  background: transparent;
+  color: #5e5d5d;
+}
+#mod_search .sea_cont {
+  left: 26%;
+  top: 3rem;
+  position: absolute;
+}
+#mod_search .sea_cont span {
+  font-size: 0.26rem;
+  font-weight: 100;
+  margin: 0.2rem;
+  color: #ffffff;
+  float: left;
+}
+#mod_search .default {
+  left: 3.96rem;
+  top: 2.7rem;
+  position: absolute;
+  z-index: 99;
+  width: 7.66rem;
+  opacity: 0;
+  background-color: #ffffff;
+}
+#mod_search .default .def_classify {
+  float: left;
+  border: 0.02rem solid #f2f2f2;
+  color: #999;
+  font-size: 0.3rem;
+  width: 24%;
+  text-align: center;
+}
+#mod_search .default .def_classify :nth-child(1) {
+  height: 1.3rem;
+  padding-top: 0.48rem;
+}
+#mod_search .default .def_classify :nth-child(2) {
+  height: 1.32rem;
+}
+#mod_search .default .def_classify :nth-child(3) {
+  height: 1.66rem;
+}
+#mod_search .default .def_classify :nth-child(4) {
+  padding-bottom: 1rem;
+}
+#mod_search .default .classify_det {
+  border-right: 0.02rem solid #f2f2f2;
+  border-bottom: 0.02rem solid #f2f2f2;
+  width: 75%;
+  float: left;
+}
+#mod_search .default .classify_det .song,
+#mod_search .default .classify_det .singer,
+#mod_search .default .classify_det .album,
+#mod_search .default .classify_det .det_mv {
+  border-top: 0.02rem solid #f2f2f2;
+}
+#mod_search .default .classify_det ul li {
+  font-size: 0.3rem;
+  font-weight: 100;
+  margin: 0.2rem;
+}
+#mod_search .default .classify_det ul li :nth-child(2) {
+  color: #999;
+}
+#cont {
+  height: 12rem;
+}
+#cont .tit_det {
+  font-size: 0.32rem;
+  height: 1.16rem;
+  font-weight: 100;
+}
+#cont .tit_det li {
+  float: left;
+  padding-top: 0.4rem;
+  margin-right: 0.9rem;
+}
+#cont .header_listhd {
+  height: 1rem;
+  line-height: 1rem;
+  background-color: rgba(0, 0, 0, 0.01);
+  color: #999;
+  font-size: 0.28rem;
+}
+#cont .header_listhd div {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+#cont .list_cont {
+  width: 100%;
+  height: 1rem;
+  list-style: none;
+  background-color: rgba(0, 0, 0, 0.01);
+}
+#cont .list_cont li {
+  font-size: 0.28rem;
+}
+#cont .list_cont li div {
+  float: left;
+  width: 50%;
+  height: 1rem;
+  text-align: center;
+}
