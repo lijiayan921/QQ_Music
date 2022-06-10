@@ -110,7 +110,7 @@ search_ipt_btn.addEventListener('click',function(){
     historyArr.unshift(search_data)
     console.log(historyArr);
     localStorage.setItem('history_search',historyArr)
-    window.location.href="../search.html"; 
+    // window.location.href="../search.html"; 
 })
         try {
             // 获取为你推荐歌单
