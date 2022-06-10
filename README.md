@@ -10,8 +10,9 @@ qq_music是基于原生js开发的项目，他是一个测试项目。
 - 打开网页
 
 ### 使用效果
-
-
+![https://github.com/AngelSXD/sxd_first_repository/blob/master/images/20160615165142.png](https://github.com/lijiayan921/QQ_Music/blob/main/upload/01.gif)
+![https://github.com/AngelSXD/sxd_first_repository/blob/master/images/20160615165142.png](https://github.com/lijiayan921/QQ_Music/blob/main/upload/02.gif)
+![https://github.com/AngelSXD/sxd_first_repository/blob/master/images/20160615165142.png](https://github.com/lijiayan921/QQ_Music/blob/main/upload/03.gif)
 ### 功能描述
 
 #### 已经实现的功能：
